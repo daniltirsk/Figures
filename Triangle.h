@@ -19,11 +19,11 @@ public:
 
     Triangle(Dot d1, Dot d2, Dot d3);
 
-    virtual double getArea();
+    double getArea();
 
-    virtual double getPerimeter();
+    double getPerimeter();
 
-    virtual string returnType();
+    string returnType();
 };
 
 #endif
