@@ -18,11 +18,11 @@ public:
 
     Rectangle(double w, double h);
 
-    virtual double getArea();
+    double getArea();
 
-    virtual double getPerimeter();
+    double getPerimeter();
 
-    virtual string returnType();
+    string returnType();
 };
 
 #endif
