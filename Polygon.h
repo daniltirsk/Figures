@@ -20,11 +20,11 @@ public:
 
     Polygon(int inN, Dot* inArr);
 
-    virtual double getArea();
+    double getArea();
 
-    virtual double getPerimeter();
+    double getPerimeter();
 
-    virtual string returnType();
+    string returnType();
 
 };
 
